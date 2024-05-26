@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/recipes")
-@CrossOrigin(origins = {"http://localhost:3000", "https://foodmotion-frontend-hlfxsphkja-ew.a.run.app"})
+@CrossOrigin(origins = {"http://localhost:3000", "https://foodmotion-frontend-hlfxsphkja-ew.a.run.app","https://foodmotion-api-gateway-6xxrfy77.ew.gateway.dev"})
 
 public class RecipeController {
 
